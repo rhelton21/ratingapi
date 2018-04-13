@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engine": {
+    "node": "9.6.0",
+    "npm": "5.6.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzochukwueddie/ratingapi.git"
   },
   "author": "",
   "license": "ISC",
